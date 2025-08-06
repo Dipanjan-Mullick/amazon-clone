@@ -103,3 +103,45 @@ span{
     font-size: 0.85rem;
     font-weight: 700;
 }
+/* Panel */
+.panel{
+    background-color: #222f3d;
+    color:#ffffff;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops li{
+    display:inline;
+    margin-left:10px;
+    font-size: 0.85rem;
+}
+.panel-ops{
+    width:70%;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: #ffffff;
+    width:90%;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+    font-size: 0.85rem;
+}
+.hero-msg a{
+    color:#007185;
+}
